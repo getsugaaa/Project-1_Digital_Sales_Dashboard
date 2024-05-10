@@ -1,0 +1,25 @@
+SELECT
+  b.Date as order_date,
+  c.CategoryName as category_name,
+  d.ProdName as product_name,
+  d.Price as product_price,
+  b.Quantity as order_qty,
+  (b.Quantity * d.Price) AS total_sales,
+  a.CustomerEmail as cust_email,
+  a.CustomerCity as cust_city
+FROM
+  rakamin-final-task-bi.sales.orders AS b
+INNER JOIN
+  rakamin-final-task-bi.sales.customers AS a
+ON
+  a.CustomerID = b.CustomerID
+INNER JOIN
+  rakamin-final-task-bi.sales.products AS d
+ON
+  b.ProdNumber = d.ProdNumber
+INNER JOIN
+  rakamin-final-task-bi.sales.productcategory AS c
+ON
+  d.Category = c.CategoryID
+ORDER BY
+  b.date ASC, b.Quantity asc
