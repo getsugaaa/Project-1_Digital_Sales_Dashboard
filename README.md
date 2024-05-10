@@ -22,7 +22,7 @@ In this phase, data preprocessing includes : <br>
 
 
 ## Data Visualization
-In this phase,I will develop a dashboard incorporating key performance indicators (KPIs) such as total sales revenue, sales revenue categorized by product category, total quantity sold per product category, revenue distribution across various cities, and total quantity sold in each city.
+In this phase, I will develop a dashboard incorporating key performance indicators (KPIs) such as total sales revenue, sales revenue categorized by product category, total quantity sold per product category, revenue distribution across various cities, and total quantity sold in each city.
 To see the dashboard, please visit the link below https://public.tableau.com/app/profile/emir.nur/viz/SalesDashboardFinalTaskRakaminBI/Dashboard1?publish=yes
 
 
